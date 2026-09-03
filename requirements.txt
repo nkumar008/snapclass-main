@@ -12,6 +12,7 @@ bcrypt
 
 segno
 pillow
+resemblyzer
 
 
 
