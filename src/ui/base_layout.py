@@ -20,9 +20,9 @@ def style_base_dashboard():
     st.markdown("""
             <style>
                   .stApp{
-                      background: #5865f2 !important;
+                      background: #82B5AC !important;
                   }
-               
+            
             <style/>
                 
                 """
@@ -36,7 +36,7 @@ def style_base_layout():
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Outfit:wght@100..900&display=swap');
             /* hide top Bar of stremlit */
             
-            #MainMenu, footer, header{
+            MainMenu, footer, header{
                 visibility:hidden;
             }     
             .block-container{
@@ -63,7 +63,7 @@ def style_base_layout():
             }      
             button{
                 border-radius:1.5rem !important;
-                background:#FF46A2 !important;
+                background-color:#FF46A2 !important;
                 color:white !important;
                 padding:10px 20px !important;
                 border:none ! important;
@@ -72,7 +72,7 @@ def style_base_layout():
             }
             button[kind="Secondry"]{
                             border-radius:1.5rem !important;
-                            background:#EB459E !important;
+                            background-color:#EB459E !important;
                             color:white !important;
                             padding:10px 20px !important;
                             border:none ! important;
@@ -82,7 +82,7 @@ def style_base_layout():
             
             button[kind="tertiary"]{
                             border-radius:1.5rem !important;
-                            background:black !important;
+                            background-color:black !important;
                             color:white !important;
                             padding:10px 20px !important;
                             border:none ! important;
